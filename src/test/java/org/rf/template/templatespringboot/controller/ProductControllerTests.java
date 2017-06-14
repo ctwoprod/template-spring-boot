@@ -25,7 +25,7 @@ import com.jayway.restassured.http.ContentType;
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @Sql(scripts = { "/mysql/delete-data.sql", "/mysql/sample-product.sql" })
-public class ProductControllerTest {
+public class ProductControllerTests {
 
 	private static final String BASE_URL = "/api/product";
 

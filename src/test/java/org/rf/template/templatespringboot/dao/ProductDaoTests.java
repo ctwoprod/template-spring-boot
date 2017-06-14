@@ -17,7 +17,7 @@ import org.springframework.transaction.annotation.Transactional;
 @SpringBootTest(classes = TemplateSpringBootApplication.class)
 @Transactional
 @Sql(scripts = { "/mysql/delete-data.sql", "/mysql/sample-product.sql" })
-public class ProductDaoTest {
+public class ProductDaoTests {
 
 	@Autowired
 	private ProductDao pd;
