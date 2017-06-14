@@ -9,5 +9,5 @@ Template project for Spring Boot - REST - JPA
 
 Referensi : https://github.com/endymuhardin/belajar-ci
 
-[![Build Status](https://travis-ci.org/ctwoprod/template-spring-boot.svg?branch=master)](https://travis-ci.org/ctwoprod/template-spring-boot)](https://travis-ci.org/ctwoprod/template-spring-boot)
+[![Build Status](https://travis-ci.org/ctwoprod/template-spring-boot.svg?branch=master)](https://travis-ci.org/ctwoprod/template-spring-boot)
 
