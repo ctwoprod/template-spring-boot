@@ -1,0 +1,12 @@
+language: java
+
+jdk:
+    - oraclejdk8
+
+services:
+    - mysql
+
+before_install: 
+    - mysql -uroot -e "grant all on test.* to test@localhost identified by 'root'"
+    - mysql -uroot -e "drop database if exists test"
+    - mysql -uroot -e "create database test"
